@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: #29292985;
+    background-image: url("https://i.pinimg.com/originals/c6/33/c2/c633c20ede82f0e0ced7d570dbe3a1f3.gif");
+    
+    background-attachment: fixed;
+    overflow: scroll;
+    
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.form form table tr{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+
+}
+
+.bx-wrapper{
+    width: 500px;
+    height: 300px;
+    margin-left: 36%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crud{
+    
+    background-color: rgb(36, 36, 36);
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.crud form, .pag{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+:link{
+    color: rgb(107, 107, 107);
+}
+:visited{
+    color: rgb(107, 107, 107);
+}
+
+.boton{
+    margin: auto;
+    margin-left: 48%;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+
+:hover.boton{
+
+    background-color: rgb(54, 54, 54);
+    color: white;
+    box-shadow: rgb(100, 107, 114) 0px 20px 30px -10px;
+}
+
+.fav{
+    width: 60%;
+    margin-left: 17%;
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-bottom: 300px;
+}
+
+.anadir{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 17%;
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-bottom: 300px;
+}
